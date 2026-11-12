@@ -1,0 +1,20 @@
+{
+  "name": "bitedash-restaurant",
+  "version": "1.0.0",
+  "description": "BiteDash Gourmet Fast Food - Full Stack Web App with SQLite",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node server/seed.js",
+    "test": "node --test test/api.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
